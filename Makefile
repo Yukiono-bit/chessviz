@@ -1,5 +1,5 @@
 all:lounch
-comp,: Chess.c
-  gcc -Wall -o Chess Chess.c
+comp,: Chessviz.c
+  gcc -Wall -o Chessviz Chessviz.c
 lounch: comp
-        ./Chess
+        ./Chessviz
