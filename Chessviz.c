@@ -1,4 +1,5 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 int main()
 {
     char chessviz[10][10] = {{'8', ' ', 'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'},
